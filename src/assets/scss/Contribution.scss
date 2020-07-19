@@ -1,0 +1,11 @@
+div {
+
+  .pos-sticky {
+    position: sticky;
+    width: 100%;
+    top:0.25rem;
+    border: 2px solid rgb(77, 164, 235);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}

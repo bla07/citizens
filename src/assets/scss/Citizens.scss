@@ -1,0 +1,38 @@
+div {
+
+  .c-grid {
+    margin : 80px 0px;
+
+    .c-grid1 {
+      padding-left : 40px;
+      h1 {
+        padding-top : 30px;
+        font-weight: 500;
+      }
+
+      p {
+        line-height: 28px;
+        font-size: 16px;
+      }
+    }
+
+    .player-wrapper {
+       position: relative;
+       /* Player ratio: 100 / (1280 / 720) */
+      }
+
+  }
+  .react-player {
+    position: relative;
+    top: 0;
+    left: 80px;
+  }
+
+  // @media (max-width: 767px){
+  //   .react-player {
+  //     position: relative;
+  //     top: 100;
+  //     left: 80px;
+  //   }
+  // }
+}

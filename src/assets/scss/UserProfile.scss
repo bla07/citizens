@@ -1,0 +1,41 @@
+@import './Color.scss';
+
+div {
+  
+  .user-width {
+    max-width: 828px;
+  }
+
+  .limit-navbar {
+    padding-top : 80px
+  }
+
+  @media only screen and (max-width: 1023px) {
+    .limit-navbar {
+      padding-top : 120px
+    } 
+  } 
+
+  @media only screen and (max-width: 767px) {
+    .limit-navbar {
+      padding-top : 90px
+    } 
+  } 
+
+
+  .btn-subs {
+    padding : 8px 10px;
+  }
+
+  @media only screen and (max-width: 639px) {
+    .btn-center {
+      display: flex;
+      justify-content: center;
+      margin-top: -20px;
+    }
+  }
+
+  .text-light-coral {
+    color: #127681;
+  }
+}

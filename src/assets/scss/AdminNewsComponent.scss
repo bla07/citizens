@@ -1,0 +1,127 @@
+div {
+
+  .dash-video {
+    margin : 10px 20px;
+    padding : 20px 15px 50px 15px;
+  }
+
+  .dash-image {
+    margin : 10px 20px;
+    padding : 10px 15px 10px 15px;
+  }
+
+  .img-test {
+
+    img {
+      height: 290px;
+      margin-top : 60px; 
+    }
+  }
+
+  .text-auth {
+    margin-top : 10px;
+    p {
+      font-size: 13px;
+      font-weight: 600;
+      span {
+        color: #666565;
+        
+      }
+    }
+  }
+
+  .selection-text {
+    margin-top: 10px;
+    p {
+      font-size: 13px;
+      font-weight: 600;
+      span {
+        padding: 5px;
+        border: 1px solid #dfdb19;
+        color : #dfdb19;
+        border-radius : 6px;
+      }
+    }
+
+    .span-2 {
+      padding: 5px;
+      border: 1px solid #2dca11;
+      color : #2dca11;
+      border-radius : 6px;
+    }
+
+    .span-3 {
+      padding: 5px;
+      border: 1px solid #f80404;
+      color : #f60f1a;
+      border-radius : 6px;
+    }
+    
+    form {
+      margin-top : 15px;
+      font-size : 13px;
+    }
+  }
+
+  .select-style {
+    border: 1px solid #ccc;
+    width: 100px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa ;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-light-coral {
+  color: #127681;
+}
+
+.text-green {
+  color: #438a5e;
+}
+
+.text-pumpkin {
+  color: #fc8210;
+} 
+
+.text-red {
+  color: #c70039;
+} 
+
+.bg-light-coral {
+  background-color: #127681;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.pd-l-10 {
+  padding-left: 10vh;
+}
+
+.total {
+  width: 18vh;
+}
+
+.justify-center {
+  justify-content: center;
+}
+}

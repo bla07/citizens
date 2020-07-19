@@ -1,0 +1,156 @@
+div {
+  
+  .widht-home{
+    max-width: 1125px;
+    margin-top : 3vh;
+  }
+
+  .play-button {
+    padding: 5rem 6rem 0rem 0rem;
+  }
+
+
+  // For Media Query Screen
+
+  @media only screen and (max-width: 1125px) {
+    .play-button {
+    padding: 5rem 0rem 0rem 0rem;
+    }
+  }
+
+  @media only screen and (max-width: 1058px) {
+    .play-button {
+    padding: 9rem 0rem 0rem 0rem;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .play-button {
+    padding: 6rem 0rem 0rem 0rem;
+    }
+  }
+  @media only screen and (min-width: 1825px) {
+    .play-button {
+    padding: 6rem 24rem 0rem 0rem;;
+    }
+  }
+
+
+  .title-grid {
+    
+    .separator {
+      width: 48%;
+      border: 1px solid #404040;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 5.5rem;
+      z-index: 1;
+    }
+
+    .education {
+      margin-left: 9rem;
+      width: 40%;
+    }
+
+    .lifestyle{
+      margin-left: 8rem;
+      width: 45%;
+    }
+
+    .entertain {
+      margin-left: 8.4rem;
+      width: 45%;
+    }
+    // For Media Query Screen
+
+    @media only screen and (max-width: 1125px) {
+      .separator {
+        width: 58%;
+        border: 1px solid #404040;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 5rem;
+        z-index: 1;
+      }
+
+      .education {
+        margin-left: 9rem;
+        width: 55%;
+      }
+
+      .lifestyle{
+        margin-left: 8rem;
+        width: 51%;
+      }
+
+      .entertain {
+        margin-left: 8.6rem;
+        width: 52%;
+      }
+    }
+
+    @media only screen and (min-width: 1825px) {
+      .separator {
+        width: 37%;
+        border: 1px solid #404040;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 5rem;
+        z-index: 1;
+      }
+
+      .education {
+        margin-left: 9rem;
+        width: 35%;
+      }
+
+      .lifestyle{
+        margin-left: 8rem;
+        width: 35%;
+      }
+    }
+
+    
+
+    .title-design {
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #404040;
+    }
+
+    .btn-seemore {
+      z-index: 3;
+      button {
+        background-color: #404040;
+        border-radius: 50px;
+      }
+      
+    }    
+  }
+
+  // for image response
+
+  .width-img {
+    width: 40%;
+  }
+
+
+
+  @media only screen and (max-width: 767px) {
+    .width-img {
+      width: 70%;
+    }
+
+    .for-wrap {
+      flex-wrap: wrap;
+    }
+
+    .display-side {
+      display: none;
+    }
+  }
+
+
+
+}

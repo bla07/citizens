@@ -1,0 +1,86 @@
+div {
+  
+ .sign-style {
+   background-color: #1E2022;
+   color: #F0F5f9;
+
+   .col-3{
+     width: 60.33%; 
+     margin: 30px 18%; 
+     position: relative;
+    } /* necessary to give position: relative to parent. */
+    
+    input[type="text"], [type="password"]{
+      font: 15px/24px "Lato", Arial, sans-serif; 
+      color:  rgb(223, 223, 223);;
+      background-color: transparent;
+      border-radius: 3px;
+      width: 100%; 
+      box-sizing: border-box; 
+      letter-spacing: 1px;
+    }
+
+.effect-1{
+  border: 0; 
+  padding: 7px 10px; 
+  border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .focus-border{
+  position: absolute; 
+  bottom: 0; 
+  left: 104px; 
+  width: 0; 
+  height: 3px; 
+  background-color: #4caf50; 
+  transition: 0.4s;
+}
+.effect-1:focus ~ .focus-border{
+  width: 79%; 
+  transition: 0.4s;
+  }
+}
+ 
+ .style-in {
+   background-color: #F0F5f9;
+
+   h1 {
+     margin-left: 30px;
+     margin-top : 30px;
+   }
+
+   p {
+    margin-left: 30px;
+    margin-top : 5px;
+   }
+ }
+
+ @media (max-width: 1022px){
+  .style-in {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1825px) {
+  .style-in {
+    background-color: rgb(223, 223, 223);
+    padding-top: 12rem;
+    h1 {
+      margin-left: 30px;
+      margin-top : 30px;
+    }
+ 
+    p {
+     margin-left: 30px;
+     margin-top : 5px;
+    }
+  }
+  .in-width {
+    padding-top: 12rem;
+  }
+
+  .for-form {
+    margin : 60px auto
+  }
+}
+}

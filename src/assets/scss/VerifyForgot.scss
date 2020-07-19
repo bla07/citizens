@@ -1,0 +1,131 @@
+div {
+
+  .img-style {
+
+    img {
+      width: 20%;
+      margin : 30px 0px 50px 0px;
+    }
+  }
+
+  @media (max-width: 1040px){
+    .img-style {
+      img {
+        width: 30%;
+      }
+    }
+  }
+
+  @media (max-width: 724px){
+    .img-style {
+      img {
+        width: 45%;
+      }
+    }
+  }
+
+  .input-forgot {
+    
+    form {
+      position: relative;
+      margin-top: 40px;
+      left: -90px;
+
+     :focus{outline: none;}
+
+     
+
+    .col-3{
+      width: 190%; 
+      margin: 25px 0; 
+      position: relative;
+    } 
+    
+    input[type="text"]{
+      font: 14px/24px "Lato", Arial, sans-serif; 
+      color: #333; 
+      background-color: #F0F5F9;
+      width: 100%; 
+      box-sizing: border-box; 
+      letter-spacing: 1px;
+    }
+
+    input[type="password"]{
+      font: 14px/24px "Lato", Arial, sans-serif; 
+      color: #333;
+      background-color: #F0F5F9; 
+      width: 100%; 
+      box-sizing: border-box; 
+      letter-spacing: 1px;
+    }
+
+    .effect-1{
+      border: 0; 
+      padding: 10px 5px; 
+      border-bottom: 1px solid #ccc;
+    }
+    
+    .effect-1 ~ .focus-border{
+      position: absolute; 
+      bottom: 0; 
+      left: 0; 
+      width: 0; 
+      height: 2px; 
+      background-color: #4caf50; 
+      transition: 0.4s;
+    }
+    
+    .effect-1:focus ~ .focus-border{
+      width: 100%; 
+      transition: 0.4s;
+    }
+    
+    .btn-response{
+      width: 190%
+    }
+    
+    }
+  }
+
+  .bcg-color {
+    background-color: #4D4D4D;
+    height: 100vh;
+  }
+
+  @media (max-width: 724px){
+
+    .input-forgot {
+    
+      form {
+        position: relative;
+        margin-top: 40px;
+        left: -30px;
+  
+       :focus{outline: none;}
+  
+      .col-3{
+        width: 140%; 
+        margin: 25px 0; 
+        position: relative;
+      } 
+      
+      .btn-response{
+        width: 140%
+      }
+    }
+  }
+
+    .bcg-color {
+      background-color: #4D4D4D;
+      height: 100vh;
+    }
+
+  }
+
+  @media (max-width: 1125px){
+    .bcg-color {
+      background-color: #4D4D4D;
+         height: 100vh;
+    }
+  }
+}

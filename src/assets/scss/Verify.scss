@@ -1,0 +1,26 @@
+div {
+  .v-text {
+    color: #ffff;
+    text-align: center;
+    h1 {
+      font-size: 24px;
+      font-weight: 800;
+    }
+
+
+  }
+
+  .v-link {
+    button {
+      border: solid 1px #ffff;
+      margin : 10px;
+      padding : 5px 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      &:hover{
+          color : #000000;
+          background-color: #ffffff;
+      }
+    }
+  }
+}

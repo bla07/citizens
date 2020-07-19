@@ -1,0 +1,75 @@
+div {
+
+
+  // for modal 
+  .for-modal {
+    background: #fbfafa;
+    max-width: 400px;
+    width: 100%;
+    left: 30rem;
+    // margin: auto;
+    position: fixed;
+    top: 12rem;
+    padding: 20px;
+  }
+
+  @media only screen and (min-width : 1895px) {
+    .for-modal {
+      background: #fbfafa;
+      max-width: 400px;
+      width: 100%;
+      left: 40rem;
+      // margin: auto;
+      position: fixed;
+      top: 20rem;
+      padding: 20px;
+    }
+      
+  }
+
+  @media only screen and (max-width : 962px) {
+    .for-modal {
+      background: #fbfafa;
+      max-width: 400px;
+      width: 100%;
+      left: 5rem;
+      // margin: auto;
+      position: fixed;
+      top: 20rem;
+      padding: 20px;
+    }
+      
+  }
+
+  // Pixel2 
+  @media only screen and (max-width : 411px) {
+    .for-modal {
+      background: #fbfafa;
+      max-width: 400px;
+      width: 90%;
+      left: 1rem;
+      // margin: auto;
+      position: fixed;
+      top: 20rem;
+      padding: 20px;
+    }
+      
+  }
+
+  // Iphone X
+  @media only screen and (max-width : 375px) {
+    .for-modal {
+      background: #fbfafa;
+      max-width: 400px;
+      width: 90%;
+      left: 1rem;
+      // margin: auto;
+      position: fixed;
+      top: 20rem;
+      padding: 20px;
+    }
+      
+  }
+
+
+}

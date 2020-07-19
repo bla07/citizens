@@ -1,0 +1,21 @@
+@import "./Color.scss";
+
+div {
+
+  .width-category {
+    max-width: 1125px;
+    margin: auto;
+  }
+
+  .image-style {
+    width: 100%;
+    height: 29rem;
+  }
+
+  @media only screen and (max-width :623px) {
+    .image-style {
+      width: 100%;
+      height: 19rem;
+    } 
+  }
+}
